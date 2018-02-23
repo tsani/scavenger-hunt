@@ -1,0 +1,20 @@
+You now find yourself deep within a _directory tree_...
+
+We call it a _tree_ because if you turn your head to the right and squint
+really hard, then the following diagram looks like a (very lopsided) tree.
+
+    .
+    ├── 01 open up the instructions with "cat step-1"
+    ├── step-1
+    └── step-2
+        ├── 01 have a look at "the-power-of-tab.txt"
+        ├── isnt-that-awesome
+        │   └── check-me-out.txt
+        └── the-power-of-tab.txt
+
+The directory you're presently working in is called the "present working
+directory" or "current working directory".
+There is a command to tell you what the present working directory is: `pwd`.
+Give it a try!
+
+Check out "02-check-me-out.txt".

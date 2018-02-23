@@ -1,0 +1,12 @@
+What good is an empty directory? Not much.
+Let's create some important documents!
+
+To create an empty file (very important), we can use the `touch` command.
+Try out:
+
+    touch important-documents/world-domination-plans.txt
+
+Remember, you can use TAB to complete the rather long `important-documents`
+directory name!
+
+Next, view `04-paths-and-files.txt`.

@@ -1,0 +1,8 @@
+normal mode:
+  - hjkl: move left down up right
+  - w b: move forward/backward by one word
+  - i: go to insert mode
+  - A: go to insert mode at end of line
+  - o: insert new line below
+  - dd: delete the whole line under the cursor
+  - :wq save and quit

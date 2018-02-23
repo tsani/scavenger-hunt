@@ -1,0 +1,19 @@
+So a new file, `cake-recipe.txt` has appeared in this directory.
+
+Obviously, making cake is extremely important, so we should move it into the
+important-documents directory. To move files, we use the `mv` command:
+
+    mv SOURCE DEST
+
+The DEST path can identify a directory, in which case the file will keep its
+name but be moved to that directory, but the DEST path can alternatively
+identify a *file*, in which case the SOURCE file will be both moved and
+renamed!
+
+In other words, moving a file and renaming it are conceptually the same thing.
+
+Move the file `cake-recipe.txt` into `important-documents`.
+Remember to use tab completion!
+
+Then, enter the `important-documents` directory, and have a look around with
+`ls`.

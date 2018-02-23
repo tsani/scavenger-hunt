@@ -1,0 +1,21 @@
+Welcome to the scavenger hunt!
+
+By exploring the files in here, you'll learn basic Linux commands.
+
+You just used the `cat` command, which prints out the entire contents of a
+file. For very long files, this isn't so great, so try `less step-1` to open
+this file in an interactive viewer called `less`. To quit it, press `q`.
+
+When you're done, move on to step 2 by entering the step-2 directory using
+`cd step-2`.
+A good habit to get into upon entering a new directory is to see what's inside,
+by using `ls`.
+
+Remember:
+  * `ls` stands for LiSt
+  * `cd` stands for Change Directory.
+
+Fun fact:
+  * `less` is based on an older program called `more`, which got its name
+    because it lets you see _more_ things on your screen!
+    Remember: less is more!

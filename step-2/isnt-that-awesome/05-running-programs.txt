@@ -1,0 +1,41 @@
+You've used a few programs so far, so let's recap:
+  - ls: list the files in a directory
+  - less: interactively view a file
+  - cat: print out a whole file to the screen
+  - mkdir: create a new directory
+  - touch: create a new file
+
+(Notice that `cd` is not in this list! That's because `cd` is not a *program*
+per se. It's a special command that's a part of zsh.)
+
+All these programs come from your Linux distribution, and are stored in
+`/usr/bin`. This is a special directory, in some sense: your shell maintains a
+list of directories in which it searches for programs when you run a command
+such as `less hello-world.txt`, and `/usr/bin` is in that list, so eventually,
+zsh will find `/usr/bin/less` and run it for you.
+
+But what about programs that don't come from the distribution? For instance,
+what about the programs that you will be developing?
+
+In this directory, there's a program called `make-docs`. You might have noticed
+it in green when you ran `ls`. That's because ls colourizes its output to
+reflect the type of file:
+  - grey: regular file, like this one!
+  - blue: directory, like `important-documents`
+  - green: executable file, like `make-docs`
+
+If we want to run `make-docs` (which is *not* inside of the special directories
+such as `/usr/bin` that the shell will look in), we need to specify an
+*absolute* path.
+
+Typing out /home/student/scavenger-hunt/step-2/isnt-that-awesome/make-docs
+would be CRAZY, so luckily there's a shortcut.
+
+You can refer to the present working directory with the special file name `.`
+(dot).
+
+So to run make-docs, type out `./make-docs` and hit enter.
+(Remember to use tab completion!)
+
+Run `ls` to take note of what new files got created, and then have a look at
+`06-file-management.txt`.

@@ -1,0 +1,52 @@
+So now we're crazy deep: your present working directory is:
+
+    /home/student/scavenger-hunt/step-2/isnt-that-awesome/important-documents
+
+If you haven't had a look at the cake recipe, I encourage you to, because
+there's something slightly amiss with it.
+
+(blank space to avoid spoilers)
+(protip: press `d` and `u` in less to go Down and Up a half-page of text.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Okay so our cake recipe doesn't have any baking powder! How will we ever make a
+cake like that!
+
+First, let's make a backup of the recipe. A backup is nothing more than a copy,
+and to copy files, we use the `cp` command. Its syntax is exactly the same as
+mv's:
+
+    cp SOURCE DEST
+
+Try out `cp cake-recipe.txt bad-cake-recipe.txt`

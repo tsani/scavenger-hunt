@@ -1,0 +1,24 @@
+You might have noticed that the output of `pwd` differs slightly from what the
+shell reports.
+
+shell: ~/scavenger-hunt/step-2/isnt-that-awesome
+pwd: /home/student/scavenger-hunt/step-2/isnt-that-awesome
+
+That's because the shell has a special interpretation of the tilde (~)
+character: it's essentially a shortcut built-in to the shell that refers to
+what's called your _home directory_.
+
+Your home directory is the directory your shell starts in when you log in. All
+your personal files should be stored under there.
+
+We can create new directories to keep things organized by using the `mkdir`
+command, followed by the name of the directory we want to create.
+
+For example, try `mkdir important-documents`.
+By the way, it's perfectly normal for there to be no output after running this
+command. In Linux, the philosophy for commands is to produce no output if they
+worked.
+
+Run `ls` to admire your work!
+
+Next, view `03-check-me-out.txt`.

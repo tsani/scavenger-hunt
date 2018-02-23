@@ -1,0 +1,41 @@
+Now that we have a backup of our recipe, we can fix `cake-recipe.txt`.
+
+To do so, we will use an advanced interactive text editor called neovim.
+
+The first thing to know about neovim is that it uses a system of _modes_:
+  - When neovim starts, you are in NORMAL mode.
+    Oddly enough, you can't input text in normal mode!
+    In normal mode, most keys serve to move you around.
+    Here are some basic motion commands:
+      - h j k l: these keys move the cursor left down up right respectively.
+        It might seem very very odd that we move around using these keys
+        instead of the more traditional arrow keys, but hjkl has the benefit of
+        being on the _home row_ of the keyboard. This way, you rarely need to
+        move your hands off the home row. The upshot? Faster typing!
+      - C-u C-d: (the notation "C-x" means "Control-x")
+        These commands move the cursor Up and Down a half page, just like `u`
+        and `d` did in less.
+        Coincidence? Not at all! Many programs in Linux have shortcuts modelled
+        after the ones from the older editor vi, from which neovim is
+        descended.
+  - The most *useful* mode is INSERT mode.
+    There are several ways to enter insert mode:
+      - i: pressing the `i` key will put you in insert mode at the location of
+        the cursor.
+      - a: pressing the `a` key will put you in insert mode at the position
+        *after* the cursor. This is essential for putting text on the end of a
+        line.
+      - A: pressing shift+a will put you in insert mode at the end of the
+        current line.
+  - When you're in normal mode, you can execute a *command*. In particular,
+    this is how you can save and quit neovim!
+    To enter command mode, press : (colon), and then input the command.
+      - :w - save the current file.
+      - :q - quit neovim. If the file has unsaved changes, this command won't
+        work.
+      - :q! - quit even if there are unsaved changes.
+      - :wq - save and quit.
+
+Remember that? No problem. There a reference card version in the file named
+`blurb`.
+Finally, open the file in neovim by running `nvim cake-recipe.txt`.

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -e
+
+cp {.,important-documents/}01-file-management-part-2.txt
+cp {.,important-documents/}02-editing-files.txt
+cp {.,}cake-recipe.txt
+cp {.,important-documents/}blurb

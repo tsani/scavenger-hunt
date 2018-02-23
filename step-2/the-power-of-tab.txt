@@ -1,0 +1,21 @@
+The interactive prompt in which you type commands is called the _shell_.
+There are many shells out there.
+
+A very common one, which comes installed on almost all systems is _bash_.
+However, you're not using bash. You're using a more advanced shell called
+_zsh_ ("zee ess aitch" or "zee shell").
+For example, the interactive highlighting that you see would not be possible in
+bash.
+
+One really cool feature of zsh that you'll be using a lot is _tab completion_.
+
+Pressing TAB will cause the shell to try to complete the word you've started
+typing.
+Try typing `cd is` followed by TAB. It will complete to `cd isnt-that-awesome`.
+You can try out other completions in this directory such as
+
+    less the<TAB>
+    les<TAB> the<TAB>
+
+When you're done playing with tab completion, enter the `isnt-that-awesome`
+directory.

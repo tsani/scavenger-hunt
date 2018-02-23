@@ -1,0 +1,37 @@
+In the last command you ran, you wrote what's called a _path_. Paths have two
+kinds of components:
+
+    /----------------- PATH ---------------------\
+    important-documents/world-domination-plans.txt
+    \--------|--------/ \---------|--------------/
+             |                    +-- file name
+             +-- directory name
+
+Slashes separate the components of a path.
+
+There are two kinds of paths:
+  * _absolute_ paths, which begin with a slash.
+  * _relative_ paths, which do not.
+
+A relative path is interpreted *relative to* the present working directory.
+So when you wrote
+
+    touch important-documents/world-domination-plans.txt
+
+that's the same thing as writing
+
+    touch /home/student/scavenger-hunt/step-2/isnt-that-awesome/important-documents/world-domination-plans.txt
+
+since `/home/student/scavenger-hunt/step-2/isnt-that-awesome` is your present
+working directory.
+
+Whew! That's a long long path!
+
+Remember that the shell will convert a leading tilde into the path to your home
+directory, so another way of writing that absolute path would be
+
+    ~/scavenger-hunt/step-2/isnt-that-awesome/important-documents/world-domination-plans.txt
+
+which is slightly shorter.
+
+Next, view `05-running-programs.txt`
